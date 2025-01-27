@@ -1,4 +1,4 @@
-package com.thebrownfoxx.chromium.author
+package com.thebrownfoxx.chronium.author
 
 import kotlinx.datetime.LocalDate
 import java.io.File

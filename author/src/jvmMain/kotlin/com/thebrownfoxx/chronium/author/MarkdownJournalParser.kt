@@ -1,4 +1,4 @@
-package com.thebrownfoxx.chromium.author
+package com.thebrownfoxx.chronium.author
 
 import com.thebrownfoxx.chronium.parser.JournalParser
 import com.thebrownfoxx.chronium.parser.ParsedEntry

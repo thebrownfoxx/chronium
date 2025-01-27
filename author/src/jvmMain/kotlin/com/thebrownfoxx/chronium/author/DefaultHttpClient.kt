@@ -1,4 +1,4 @@
-package com.thebrownfoxx.chromium.author
+package com.thebrownfoxx.chronium.author
 
 import io.ktor.client.*
 import io.ktor.client.engine.cio.*

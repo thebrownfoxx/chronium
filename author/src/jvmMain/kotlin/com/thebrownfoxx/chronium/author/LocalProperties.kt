@@ -1,4 +1,4 @@
-package com.thebrownfoxx.chromium.author
+package com.thebrownfoxx.chronium.author
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

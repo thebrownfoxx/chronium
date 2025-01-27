@@ -1,4 +1,4 @@
-package com.thebrownfoxx.chromium.author
+package com.thebrownfoxx.chronium.author
 
 import com.thebrownfoxx.chronium.prepare
 import com.thebrownfoxx.chronium.summarizer.JournalSummarizer
@@ -84,7 +84,7 @@ class MarkdownJournalAuthor(
         }
     }
 
-    private val fileNameDateFormat = LocalDate.Format {
+    private val fileNameDateFormat = LocalDate.Companion.Format {
         year()
         char('-')
         monthNumber()
@@ -92,16 +92,16 @@ class MarkdownJournalAuthor(
         dayOfMonth()
     }
 
-    private val entryHeaderDateFormat = LocalDate.Format {
-        monthName(MonthNames.ENGLISH_FULL)
+    private val entryHeaderDateFormat = LocalDate.Companion.Format {
+        monthName(MonthNames.Companion.ENGLISH_FULL)
         char(' ')
         dayOfMonth(Padding.NONE)
         chars(", ")
         year(Padding.NONE)
     }
 
-    private val logDateTimeFormat = LocalDateTime.Format {
-        monthName(MonthNames.ENGLISH_FULL)
+    private val logDateTimeFormat = LocalDateTime.Companion.Format {
+        monthName(MonthNames.Companion.ENGLISH_FULL)
         char(' ')
         dayOfMonth(Padding.NONE)
         chars(", ")
@@ -112,7 +112,7 @@ class MarkdownJournalAuthor(
         amPmMarker(am = "am", pm = "pm")
     }
 
-    private val logTimeFormat = LocalTime.Format {
+    private val logTimeFormat = LocalTime.Companion.Format {
         amPmHour(Padding.NONE)
         char(':')
         minute()

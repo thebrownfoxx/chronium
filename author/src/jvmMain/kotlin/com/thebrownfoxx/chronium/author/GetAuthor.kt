@@ -1,4 +1,4 @@
-package com.thebrownfoxx.chromium.author
+package com.thebrownfoxx.chronium.author
 
 import com.thebrownfoxx.chronium.chatbot.GeminiChatBot
 import com.thebrownfoxx.chronium.summarizer.ChatBotJournalSummarizer
