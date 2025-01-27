@@ -35,7 +35,7 @@ class MarkdownJournalAuthor(
             whitespace()
             h6(logTimeString)
             whitespace()
-            p(text)
+            markdown { text }
         }
         withContext(Dispatchers.IO) {
             entryFile.appendText(logMarkdown.value)
