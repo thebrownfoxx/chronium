@@ -18,3 +18,7 @@ kotlin {
         }
     }
 }
+
+tasks.withType<JavaExec> {
+    standardInput = System.`in`
+}

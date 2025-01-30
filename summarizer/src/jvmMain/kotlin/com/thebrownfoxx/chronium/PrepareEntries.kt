@@ -24,7 +24,7 @@ fun List<ParsedEntry>.prepare(
     )
 }
 
-private fun ParsedEntry.prepareWithLogs(): PreparedEntry<PreparedLogs> {
+fun ParsedEntry.prepareWithLogs(): PreparedEntry<PreparedLogs> {
     return PreparedEntry(date, PreparedLogs(logs.map { it.prepare() }))
 }
 

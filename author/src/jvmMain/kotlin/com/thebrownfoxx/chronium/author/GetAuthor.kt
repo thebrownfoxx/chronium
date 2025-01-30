@@ -9,7 +9,7 @@ suspend fun getAuthor(): MarkdownJournalAuthor {
     val apiKey = localProperties["geminiKey"].toString()
     val chatBot = GeminiChatBot(DefaultHttpClient, apiKey)
     val summarizer = ChatBotJournalSummarizer(chatBot)
-    val directory = localProperties["directory"].toString()
-    val author = MarkdownJournalAuthor(File(directory), summarizer)
+    val directory = File(localProperties["directory"].toString())
+    val author = MarkdownJournalAuthor(directory, summarizer)
     return author
 }
