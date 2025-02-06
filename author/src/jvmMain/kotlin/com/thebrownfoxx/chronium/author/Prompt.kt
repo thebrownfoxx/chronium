@@ -1,6 +1,7 @@
 package com.thebrownfoxx.chronium.author
 
 import com.thebrownfoxx.chronium.chatbot.GeminiChatBot
+import com.thebrownfoxx.chronium.parser.MarkdownJournalParser
 import com.thebrownfoxx.chronium.prepareWithLogs
 import com.thebrownfoxx.chronium.prompter.ChatBotJournalPrompter
 import kotlinx.coroutines.runBlocking

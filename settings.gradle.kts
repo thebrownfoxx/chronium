@@ -32,3 +32,4 @@ dependencyResolutionManagement {
 
 include(":summarizer")
 include(":author")
+include(":ui")
