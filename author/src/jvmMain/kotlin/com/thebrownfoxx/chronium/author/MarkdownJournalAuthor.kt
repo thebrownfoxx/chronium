@@ -1,5 +1,6 @@
 package com.thebrownfoxx.chronium.author
 
+import com.thebrownfoxx.chronium.parser.MarkdownJournalParser
 import com.thebrownfoxx.chronium.prepare
 import com.thebrownfoxx.chronium.summarizer.JournalSummarizer
 import com.thebrownfoxx.karbon.markdown

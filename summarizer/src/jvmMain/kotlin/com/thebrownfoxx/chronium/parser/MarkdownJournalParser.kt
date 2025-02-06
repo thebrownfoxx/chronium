@@ -1,8 +1,5 @@
-package com.thebrownfoxx.chronium.author
+package com.thebrownfoxx.chronium.parser
 
-import com.thebrownfoxx.chronium.parser.JournalParser
-import com.thebrownfoxx.chronium.parser.ParsedEntry
-import com.thebrownfoxx.chronium.parser.ParsedLog
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.datetime.LocalDate
